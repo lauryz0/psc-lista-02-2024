@@ -1,0 +1,25 @@
+  programa
+{
+	funcao inicio()
+	{
+		real precoAlemanha, precoPortugal, precoItalia, totalViagem
+
+		inteiro qtdPessoas
+
+		escreva("Digite o preço da viagem para a Alemanha: ")
+		leia(precoAlemanha)
+
+		escreva("Digite o preço da viagem para Portugal: ")
+		leia(precoPortugal)
+
+		escreva("Digite o preço da viagem para a Itália: ")
+		leia(precoItalia)
+
+		escreva("Digite a quantidade de pessoas que irão na viagem: ")
+		leia(qtdPessoas)
+
+		totalViagem = (precoAlemanha + precoPortugal + precoItalia) * qtdPessoas
+
+		escreva("O valor total da viagem para todos os destinos é: ", totalViagem)
+	}
+}
