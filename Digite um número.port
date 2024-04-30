@@ -1,0 +1,10 @@
+programa {
+  funcao inicio() {
+
+    cadeia numero
+    escreva("Digite um numero: ")
+     leia (numero)
+     escreva("Numero digitado: ",numero)
+    
+  }
+}
