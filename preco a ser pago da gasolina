@@ -1,0 +1,22 @@
+programa {
+  funcao inicio() {
+
+    real  precoLitros, litrosVendidos, totalApagar
+
+    escreva("Qual é o preco da gasolina: ")
+    leia(precoLitros)
+    escreva("Digite quantos litros foram vendidos: ")
+    leia(litrosVendidos)
+    escreva("Digite valor a ser pago: ")
+    leia(totalApagar)
+
+
+    totalApagar = precoLitros * litrosVendidos
+
+    escreva("Valor deve ser pago: ", totalApagar)
+    
+
+
+    
+  }
+}
