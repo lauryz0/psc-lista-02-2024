@@ -1,22 +1,25 @@
-
- programa
- {
-  funcao inicio ()
+programa
 {
-		cadeia nota1, nota2, nota3, nota4, media
-		
-		escreva("Digite primeira nota:")
-		leia(nota1)
-		escreva("Digite segunda nota:")
-		leia(nota2)
-		escreva("Digite terceira nota:")
-		leia(nota3)
-		escreva("Digite quarta nota:")
-		leia(nota4)
-		
-	  media <- (nota1 + nota2 + nota3 + nota4) / 4
-	
-		escreva("A media das notas é: ", media)
-		
-	}
 
+        funcao inicio()
+        {
+                real a, b, c, d, soma, media
+
+                escreva ("Digite o número do primeiro bimestre: ")
+                leia(a)
+
+                escreva ("Digite o número do segundo bimestre: ")
+                leia(b)
+
+                escreva ("Digite o número do terceiro bimeste: ")
+                leia(c)
+
+                escreva ("Digite o número do quarto bimestre: ")
+                leia(d)
+
+                soma = a + b + c + d
+                media = soma/4
+
+                escreva ("\n A média dos números é: ", media)
+        }
+}
